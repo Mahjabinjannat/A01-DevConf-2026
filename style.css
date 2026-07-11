@@ -82,3 +82,58 @@ header div button{
     margin-bottom: 3rem;
 }
 /* Header Styling Ends */
+
+/* Speaker Section Styling Starts */
+.speaker-section{
+    text-align: center;
+    margin: 3rem 7%;
+}
+
+.speaker-section h1{
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+.speakers-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.2rem;
+    margin-top: 3rem;
+}
+
+.speakers-card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card{
+    border: 1px solid #E5E7EB;
+    border-radius: 15px;
+    
+}
+
+
+.intro-card{
+text-align: left;
+padding: .9rem 1.2rem;
+}
+
+.card h6{
+    color: #2563EB;
+    padding-bottom: 10px;
+
+}
+
+.card h4{
+    padding-bottom: 10px;
+    color: #0D1B2A;
+}
+
+.card p{
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: #575757;
+}
+
+/* Speaker Section Styling Ends */
