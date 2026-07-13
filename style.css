@@ -437,6 +437,111 @@ header div button {
 
 /* Why to Attend Section Ends */
 
+/* Venue Section Styling Starts */
+
+.venue{
+    margin: 3rem 3%;
+    background:#ffffff;
+}
+
+.venue-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.venue-tag{
+    color:#3B82F6;
+    font-weight:bold;
+    letter-spacing:2px;
+    margin-bottom:15px;
+}
+
+.venue-header h2{
+    font-size:55px;
+    color:#0D1B2A;
+    margin-bottom:20px;
+}
+
+.venue-description{
+    width:650px;
+    max-width:90%;
+    margin:auto;
+    color:#666;
+    line-height:1.8;
+    font-size:18px;
+}
+
+
+.venue-container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    gap:50px;
+}
+
+
+.venue-left{
+    flex:1;
+}
+
+.venue-card{
+    display:flex;
+    gap:20px;
+    padding:25px 0;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.icon{
+    width:60px;
+    height:60px;
+    background:#EAF2FF;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    flex-shrink:0;
+}
+
+.venue-card h3{
+    margin-bottom:10px;
+    color:#0D1B2A;
+}
+
+.venue-card p{
+    color:#666;
+    line-height:1.6;
+}
+
+.venue-left button{
+    margin-top:40px;
+    background:#3B82F6;
+    color:white;
+    border:none;
+    padding:18px 35px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.venue-left button:hover{
+    background:#2563EB;
+}
+
+.venue-right{
+    flex:1.4;
+}
+
+.venue-right img{
+    width:100%;
+    display:block;
+    border-radius:20px;
+}
+/* Venue Section Styling Ends */
+
+
 /* Footer Section Styling Starts */
 .footer-div {
   background-color: #0d1b2a;
@@ -444,7 +549,7 @@ header div button {
 
 footer {
   text-align: center;
-  margin: 8rem 7% 0 7%;
+  margin: 0 7% 0 7%;
 }
 
 .footer-root {
