@@ -6,13 +6,19 @@
 }
 
 .common-btn {
-  padding: 0.7rem 1.4rem;
+  padding: 1rem 2.5rem;
   font-weight: bold;
+  font-size: 1rem;
   color: #ffffff;
   background-color: #1d4ed8;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 0.7rem;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.common-btn:hover{
+  background: #2563eb;
 }
 
 /* Navbar Styling Starts */
@@ -156,8 +162,8 @@ header div button {
 .pricing-container-root {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.2rem;
-  width: 80%;
+  gap: 1.5rem;
+  min-width: 80%;
   margin: auto;
   margin-bottom: 7rem;
 }
@@ -204,9 +210,10 @@ header div button {
 .pricing-container-root li::before {
   content: "•";
   color: #2563eb;
-  font-weight: bold;
+  font-weight: 900;
   display: inline-block;
-  width: 1em;
+  width: 1.4em;
+  height: 1.4rem;
   margin-left: -1em;
 }
 
@@ -227,8 +234,11 @@ header div button {
   opacity: 50%;
 }
 
-.pro-p {
+.pro-container .pro-p {
+  font-size: 0.8rem;
   color: #93c5fd;
+  font-weight: 600;
+
 }
 
 .pro-container li {
@@ -237,13 +247,21 @@ header div button {
 }
 
 .pro-btn {
-  color: #ffffff;
+  color: #f8f9fb;
   background-color: #2563eb;
   border: none;
   padding: 0.8rem 3rem;
   border-radius: 0.7rem;
   font-weight: bold;
   width: 100%;
+  margin-bottom: 1.6rem;
+  cursor: pointer;
+  transition: .4s ease;
+}
+
+.pro-btn:hover{
+  color: #2563eb;
+  background-color: #f8f9fb;
 }
 
 .standard-btn {
@@ -254,6 +272,15 @@ header div button {
   padding: 0.8rem 3rem;
   border-radius: 0.7rem;
   font-weight: bold;
+  margin-bottom: 1.6rem;
+  cursor: pointer;
+  transition: .4s ease;
+}
+
+.standard-btn:hover {
+  color: #f8f9fb;
+  background-color: #0d1b2a;
+  border: none;
 }
 
 .team-btn {
@@ -264,6 +291,14 @@ header div button {
   padding: 0.8rem 3rem;
   border-radius: 0.7rem;
   font-weight: bold;
+  margin-bottom: 1.6rem;
+  cursor: pointer;
+  transition: .4s ease;
+}
+
+.team-btn:hover {
+  color: #f8f9fb;
+  background-color: #0d1b2a;
 }
 
 /* Spot Securing Section Styling Ends */
@@ -271,7 +306,7 @@ header div button {
 /* Why to Attend Section Starts */
 
 .why-attend {
-  background: #07152d;
+  background: #0d1b2a;
   padding: 6.25rem 0;
   color: #ffffff;
 }
@@ -303,13 +338,13 @@ header div button {
   color: #b6bfd2;
   font-size: 1.1rem;
   line-height: 1.8;
-  margin-bottom: 70px;
+  margin-bottom: 4.37rem;
 }
 
 .feature-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 1.87rem;
 }
 
 .feature-card {
@@ -327,7 +362,7 @@ header div button {
 }
 
 .feature-card h3 {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   font-size: 1.4rem;
 }
 
@@ -382,7 +417,7 @@ header div button {
   margin-top: 5rem;
   background: #0d1b35;
   border: 1px solid rgba(59, 130, 246, 0.3);
-  border-radius: 18px;
+  border-radius: 1.2rem;
   padding: 2.2rem;
   display: flex;
   justify-content: space-between;
@@ -392,26 +427,12 @@ header div button {
 .cta-left {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 1.2rem;
 }
 
 .cta-left i {
   font-size: 40px;
   color: #3b82f6;
-}
-
-.cta-btn {
-  text-decoration: none;
-  background: #3b82f6;
-  color: white;
-  padding: 16px 40px;
-  border-radius: 10px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.cta-btn:hover {
-  background: #2563eb;
 }
 
 /* Why to Attend Section Ends */
